@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60445E1B1CE42C6400E5558B /* Sentiment.h in Headers */ = {isa = PBXBuildFile; fileRef = 60445E1A1CE42C6400E5558B /* Sentiment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60445E221CE42C6400E5558B /* Sentiment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60445E171CE42C6400E5558B /* Sentiment.framework */; };
+		60445E271CE42C6400E5558B /* SentimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60445E261CE42C6400E5558B /* SentimentTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60445E231CE42C6400E5558B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60445E0E1CE42C6400E5558B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60445E161CE42C6400E5558B;
+			remoteInfo = Sentiment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60445E171CE42C6400E5558B /* Sentiment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sentiment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60445E1A1CE42C6400E5558B /* Sentiment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sentiment.h; sourceTree = "<group>"; };
+		60445E1C1CE42C6400E5558B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60445E211CE42C6400E5558B /* SentimentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SentimentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60445E261CE42C6400E5558B /* SentimentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimentTests.swift; sourceTree = "<group>"; };
+		60445E281CE42C6400E5558B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60445E131CE42C6400E5558B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60445E1E1CE42C6400E5558B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60445E221CE42C6400E5558B /* Sentiment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60445E0D1CE42C6400E5558B = {
+			isa = PBXGroup;
+			children = (
+				60445E191CE42C6400E5558B /* Sentiment */,
+				60445E251CE42C6400E5558B /* SentimentTests */,
+				60445E181CE42C6400E5558B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60445E181CE42C6400E5558B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60445E171CE42C6400E5558B /* Sentiment.framework */,
+				60445E211CE42C6400E5558B /* SentimentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60445E191CE42C6400E5558B /* Sentiment */ = {
+			isa = PBXGroup;
+			children = (
+				60445E1A1CE42C6400E5558B /* Sentiment.h */,
+				60445E1C1CE42C6400E5558B /* Info.plist */,
+			);
+			path = Sentiment;
+			sourceTree = "<group>";
+		};
+		60445E251CE42C6400E5558B /* SentimentTests */ = {
+			isa = PBXGroup;
+			children = (
+				60445E261CE42C6400E5558B /* SentimentTests.swift */,
+				60445E281CE42C6400E5558B /* Info.plist */,
+			);
+			path = SentimentTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		60445E141CE42C6400E5558B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60445E1B1CE42C6400E5558B /* Sentiment.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		60445E161CE42C6400E5558B /* Sentiment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60445E2B1CE42C6400E5558B /* Build configuration list for PBXNativeTarget "Sentiment" */;
+			buildPhases = (
+				60445E121CE42C6400E5558B /* Sources */,
+				60445E131CE42C6400E5558B /* Frameworks */,
+				60445E141CE42C6400E5558B /* Headers */,
+				60445E151CE42C6400E5558B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sentiment;
+			productName = Sentiment;
+			productReference = 60445E171CE42C6400E5558B /* Sentiment.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		60445E201CE42C6400E5558B /* SentimentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60445E2E1CE42C6400E5558B /* Build configuration list for PBXNativeTarget "SentimentTests" */;
+			buildPhases = (
+				60445E1D1CE42C6400E5558B /* Sources */,
+				60445E1E1CE42C6400E5558B /* Frameworks */,
+				60445E1F1CE42C6400E5558B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60445E241CE42C6400E5558B /* PBXTargetDependency */,
+			);
+			name = SentimentTests;
+			productName = SentimentTests;
+			productReference = 60445E211CE42C6400E5558B /* SentimentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60445E0E1CE42C6400E5558B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jack Herrington";
+				TargetAttributes = {
+					60445E161CE42C6400E5558B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					60445E201CE42C6400E5558B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 60445E111CE42C6400E5558B /* Build configuration list for PBXProject "Sentiment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 60445E0D1CE42C6400E5558B;
+			productRefGroup = 60445E181CE42C6400E5558B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60445E161CE42C6400E5558B /* Sentiment */,
+				60445E201CE42C6400E5558B /* SentimentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60445E151CE42C6400E5558B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60445E1F1CE42C6400E5558B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60445E121CE42C6400E5558B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60445E1D1CE42C6400E5558B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60445E271CE42C6400E5558B /* SentimentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60445E241CE42C6400E5558B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60445E161CE42C6400E5558B /* Sentiment */;
+			targetProxy = 60445E231CE42C6400E5558B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		60445E291CE42C6400E5558B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		60445E2A1CE42C6400E5558B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		60445E2C1CE42C6400E5558B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Sentiment/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jherrington.Sentiment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		60445E2D1CE42C6400E5558B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Sentiment/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jherrington.Sentiment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		60445E2F1CE42C6400E5558B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SentimentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jherrington.SentimentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		60445E301CE42C6400E5558B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SentimentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jherrington.SentimentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60445E111CE42C6400E5558B /* Build configuration list for PBXProject "Sentiment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60445E291CE42C6400E5558B /* Debug */,
+				60445E2A1CE42C6400E5558B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60445E2B1CE42C6400E5558B /* Build configuration list for PBXNativeTarget "Sentiment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60445E2C1CE42C6400E5558B /* Debug */,
+				60445E2D1CE42C6400E5558B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		60445E2E1CE42C6400E5558B /* Build configuration list for PBXNativeTarget "SentimentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60445E2F1CE42C6400E5558B /* Debug */,
+				60445E301CE42C6400E5558B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60445E0E1CE42C6400E5558B /* Project object */;
+}
