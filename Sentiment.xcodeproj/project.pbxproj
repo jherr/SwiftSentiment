@@ -10,8 +10,8 @@
 		60445E1B1CE42C6400E5558B /* Sentiment.h in Headers */ = {isa = PBXBuildFile; fileRef = 60445E1A1CE42C6400E5558B /* Sentiment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60445E221CE42C6400E5558B /* Sentiment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60445E171CE42C6400E5558B /* Sentiment.framework */; };
 		60445E271CE42C6400E5558B /* SentimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60445E261CE42C6400E5558B /* SentimentTests.swift */; };
-		60445E321CE42C8A00E5558B /* afinn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60445E311CE42C8A00E5558B /* afinn.swift */; };
-		60445E341CE42CAF00E5558B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60445E331CE42CAF00E5558B /* main.swift */; };
+		60445E341CE42CAF00E5558B /* Sentiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60445E331CE42CAF00E5558B /* Sentiment.swift */; };
+		CADDE4821CE6392E00A46026 /* DefaultAFINN.json in Resources */ = {isa = PBXBuildFile; fileRef = CADDE4811CE6392E00A46026 /* DefaultAFINN.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,9 +31,9 @@
 		60445E211CE42C6400E5558B /* SentimentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SentimentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60445E261CE42C6400E5558B /* SentimentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimentTests.swift; sourceTree = "<group>"; };
 		60445E281CE42C6400E5558B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		60445E311CE42C8A00E5558B /* afinn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = afinn.swift; sourceTree = "<group>"; };
-		60445E331CE42CAF00E5558B /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		60445E331CE42CAF00E5558B /* Sentiment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sentiment.swift; sourceTree = "<group>"; };
 		60445E351CE42CCF00E5558B /* SentimentPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SentimentPlayground.playground; sourceTree = "<group>"; };
+		CADDE4811CE6392E00A46026 /* DefaultAFINN.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DefaultAFINN.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +79,8 @@
 			children = (
 				60445E1A1CE42C6400E5558B /* Sentiment.h */,
 				60445E1C1CE42C6400E5558B /* Info.plist */,
-				60445E311CE42C8A00E5558B /* afinn.swift */,
-				60445E331CE42CAF00E5558B /* main.swift */,
+				60445E331CE42CAF00E5558B /* Sentiment.swift */,
+				CADDE4801CE6391200A46026 /* AfinnData */,
 			);
 			path = Sentiment;
 			sourceTree = "<group>";
@@ -92,6 +92,14 @@
 				60445E281CE42C6400E5558B /* Info.plist */,
 			);
 			path = SentimentTests;
+			sourceTree = "<group>";
+		};
+		CADDE4801CE6391200A46026 /* AfinnData */ = {
+			isa = PBXGroup;
+			children = (
+				CADDE4811CE6392E00A46026 /* DefaultAFINN.json */,
+			);
+			name = AfinnData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +193,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CADDE4821CE6392E00A46026 /* DefaultAFINN.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,8 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60445E321CE42C8A00E5558B /* afinn.swift in Sources */,
-				60445E341CE42CAF00E5558B /* main.swift in Sources */,
+				60445E341CE42CAF00E5558B /* Sentiment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +402,7 @@
 				60445E2D1CE42C6400E5558B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60445E2E1CE42C6400E5558B /* Build configuration list for PBXNativeTarget "SentimentTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +411,7 @@
 				60445E301CE42C6400E5558B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
