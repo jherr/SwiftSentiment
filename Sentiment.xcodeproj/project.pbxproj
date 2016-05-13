@@ -10,6 +10,8 @@
 		60445E1B1CE42C6400E5558B /* Sentiment.h in Headers */ = {isa = PBXBuildFile; fileRef = 60445E1A1CE42C6400E5558B /* Sentiment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60445E221CE42C6400E5558B /* Sentiment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60445E171CE42C6400E5558B /* Sentiment.framework */; };
 		60445E271CE42C6400E5558B /* SentimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60445E261CE42C6400E5558B /* SentimentTests.swift */; };
+		60445E321CE42C8A00E5558B /* afinn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60445E311CE42C8A00E5558B /* afinn.swift */; };
+		60445E341CE42CAF00E5558B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60445E331CE42CAF00E5558B /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,9 @@
 		60445E211CE42C6400E5558B /* SentimentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SentimentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60445E261CE42C6400E5558B /* SentimentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimentTests.swift; sourceTree = "<group>"; };
 		60445E281CE42C6400E5558B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60445E311CE42C8A00E5558B /* afinn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = afinn.swift; sourceTree = "<group>"; };
+		60445E331CE42CAF00E5558B /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		60445E351CE42CCF00E5558B /* SentimentPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SentimentPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +58,7 @@
 		60445E0D1CE42C6400E5558B = {
 			isa = PBXGroup;
 			children = (
+				60445E351CE42CCF00E5558B /* SentimentPlayground.playground */,
 				60445E191CE42C6400E5558B /* Sentiment */,
 				60445E251CE42C6400E5558B /* SentimentTests */,
 				60445E181CE42C6400E5558B /* Products */,
@@ -73,6 +79,8 @@
 			children = (
 				60445E1A1CE42C6400E5558B /* Sentiment.h */,
 				60445E1C1CE42C6400E5558B /* Info.plist */,
+				60445E311CE42C8A00E5558B /* afinn.swift */,
+				60445E331CE42CAF00E5558B /* main.swift */,
 			);
 			path = Sentiment;
 			sourceTree = "<group>";
@@ -194,6 +202,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60445E321CE42C8A00E5558B /* afinn.swift in Sources */,
+				60445E341CE42CAF00E5558B /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +317,7 @@
 		60445E2C1CE42C6400E5558B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -319,12 +330,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jherrington.Sentiment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		60445E2D1CE42C6400E5558B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
