@@ -15,7 +15,7 @@ public struct SentimentResult {
 
 public class Sentiment {
     public class func analyze(input: String) -> SentimentResult {
-        var afinn = AfinnData().getAfinn()
+        var afinn = affindData
         var value:SentimentResult = SentimentResult()
         do {
             let regex:NSRegularExpression = try NSRegularExpression(pattern: "\\W",
