@@ -17,3 +17,9 @@ Sentiment.analyze("this, sucks").total  // -3
 `total` is the raw sentiment number.
 
 For the average just divide total by the the number of matches.
+
+## Thanks
+
+A big shout out to [Brandon Sneed](https://github.com/bsneed) for helping out with getting the
+data imported properly and making lots of little fixups to make it Swift-ey.
+ 
